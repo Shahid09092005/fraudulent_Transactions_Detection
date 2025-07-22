@@ -69,7 +69,11 @@ Ensemble caught **more frauds** and made **fewer mistakes** than individual mode
    git clone https://github.com/Shahid09092005/fraudulent_Transactions_Detection
    ```
 
-2. Run the code.py fie
+2. Download the dataset(Below)
+   Note :Dataset is more than 400 MB
+   ```bash
+   https://drive.google.com/file/d/1fSPV3eO08Ve-Db80wWgH9G_aATRkFpa0/view?usp=sharing
+   ```
 
 ## 👨‍💻 Contact
 Shahid Mansuri  
