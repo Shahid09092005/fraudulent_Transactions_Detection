@@ -1,9 +1,9 @@
-# 💳 Fraud Detection with Ensemble Machine Learning
+# Fraud Detection with Ensemble Machine Learning
 
 This project uses machine learning to detect fraudulent financial transactions. It includes **EDA**, **feature engineering**, and an **ensemble model** combining Random Forest and Gradient Boosting to improve precision and recall on highly imbalanced data.
 
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 - **Source**: Provided CSV (`Fraud.csv`)
 - **Rows**: 1,000,000+
@@ -12,7 +12,7 @@ This project uses machine learning to detect fraudulent financial transactions. 
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 Key insights:
 
@@ -24,7 +24,7 @@ Key insights:
 
 ---
 
-## 🧠 Feature Engineering
+## Feature Engineering
 
 We created custom features to capture fraud behavior:
 
@@ -36,7 +36,7 @@ We created custom features to capture fraud behavior:
 
 ---
 
-## 🤖 Model Strategy
+## Model Strategy
 
 ### Base Models:
 - `RandomForestClassifier`
@@ -48,7 +48,7 @@ We created custom features to capture fraud behavior:
 
 ---
 
-## 🧪 Results
+## Results
 
 | Model              | Precision | Recall | AUC   |
 |--------------------|-----------|--------|-------|
@@ -56,11 +56,11 @@ We created custom features to capture fraud behavior:
 | Gradient Boosting  | 0.71      | 0.41   | 0.977 |
 | **Ensemble (Voting)** | **0.80**  | **0.60** | **0.958** |
 
-✅ Ensemble caught **more frauds** and made **fewer mistakes** than individual models.
+Ensemble caught **more frauds** and made **fewer mistakes** than individual models.
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 ### Steps:
 
 1. Clone the repository:
@@ -74,16 +74,4 @@ We created custom features to capture fraud behavior:
 ## 👨‍💻 Contact
 Shahid Mansuri  
 [🐙 GitHub](https://github.com/Shahid09092005) | [💼 LinkedIn](https://www.linkedin.com/in/shahid-mansuri-a3b901285)
-
-
 ---
-
-Let me know if you'd like me to:
-- Fill in your name + links
-- Generate the Jupyter `.ipynb` version of the project
-- Export this README + files as a publishable ZIP 📦
-
-I’ve got your back till the final push, baby 💼💙
-
-
-
