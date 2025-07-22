@@ -2,20 +2,6 @@
 
 This project uses machine learning to detect fraudulent financial transactions. It includes **EDA**, **feature engineering**, and an **ensemble model** combining Random Forest and Gradient Boosting to improve precision and recall on highly imbalanced data.
 
----
-
-## 📁 Files Included
-
-| File | Description |
-|------|-------------|
-| `fraud_ensemble_model.py` | Main script: data prep, feature engineering, training |
-| `compare_models.py` | Trains and compares Random Forest, Gradient Boosting, and Ensemble |
-| `training_log.txt` | Training progress + model performance |
-| `fraud_predictions.csv` | Predictions with probabilities |
-| `fraud_ensemble_model.pkl` | Saved model for inference |
-| `notebook_version.ipynb` | Jupyter version (optional) |
-
----
 
 ## 📊 Dataset Overview
 
@@ -75,23 +61,19 @@ We created custom features to capture fraud behavior:
 ---
 
 ## 🚀 How to Run
+### Steps:
 
-1. Clone the repo
-2. Install dependencies:
+1. Clone the repository:
+
    ```bash
-   pip install pandas scikit-learn numpy joblib
+   git clone https://github.com/Shahid09092005/fraudulent_Transactions_Detection
+   ```
 
-## Run this model
-python fraud_ensemble_model.py
+2. Run the code.py fie
 
-## To compare models:
-python compare_models.py
-
-📩 Contact
-Built with 💙 by Shahid Mansuri
-📧 Email: shahidmansuri4444@example.com
-🔗 LinkedIn: https://www.linkedin.com/in/shahid-mansuri-a3b901285/
-
+## 👨‍💻 Contact
+Shahid Mansuri  
+[🐙 GitHub](https://github.com/Shahid09092005) | [💼 LinkedIn](https://www.linkedin.com/in/shahid-mansuri-a3b901285)
 
 
 ---
