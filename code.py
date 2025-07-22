@@ -210,7 +210,7 @@ ensemble = VotingClassifier(estimators=[
 start = time.time()
 ensemble.fit(X_train, y_train)
 elapsed = time.time() - start
-print(f"✅ Training completed in {int(elapsed)} seconds.\n")
+print(f"Training completed in {int(elapsed)} seconds.\n")
 
 # Evaluate Performance of the model
 y_pred = ensemble.predict(X_test)
